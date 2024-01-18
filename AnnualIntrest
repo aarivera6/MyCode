@@ -1,0 +1,16 @@
+public class AnnualIntrest
+{
+   public static void main(String[] args)
+   {
+      double Present = 111.55;
+      double Rate = 0.025;
+      double Mound = 2.0;
+      double Time = 10.0;
+
+      double Annual = Present * Math.pow (1 + Rate / Mound, Mound * Time);
+
+      System.out.println("If $" +Present +" is invested at an annual intrest rate of " 
+      +Rate + ", compounded 2 times a year for 10 years, the future value will be $" +Annual +".");
+   }
+
+}
