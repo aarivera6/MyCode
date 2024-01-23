@@ -1,0 +1,15 @@
+public class TipAmount
+{
+   public static void main(String[] args)
+   {
+   double Bill=14.700;
+   double tipRate=20;
+   double tipAmount = Bill*(tipRate/100);
+   double totalBill = Bill + tipAmount;
+   System.out.println("A " +tipRate+ " percent tip on a bill of $" +Bill+
+    " is $"+ tipAmount+ "."+" The total amount of the bill is $" +totalBill +".");
+   
+   
+   }
+   
+} 
