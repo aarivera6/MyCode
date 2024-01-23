@@ -1,0 +1,11 @@
+public class Pythagoren 
+{
+   public static void main(String[] args)
+   {
+    int a=5;
+    int b=9;
+    double c = Math.sqrt(a*a+b*b);
+    System.out.println("If A equals " +a+ " and B equals " +b+ " then C is "+
+     c+".");  
+   }
+   
