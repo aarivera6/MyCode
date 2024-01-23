@@ -1,0 +1,10 @@
+public class Degrees
+{
+ public static void main(String[] args)
+ {
+ double tempC=93;
+ 
+ double tempF = 9.0/5.0*tempC+32;
+ System.out.println("The temperature " +tempC+ " degrees Celsius is " +tempF+ " degrees Fahrenhiet.");
+ }
+}
