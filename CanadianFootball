@@ -1,0 +1,17 @@
+public class CanadianFootball
+{
+   public static void main(String[] agrs)
+   {
+   int points =81;
+   int touchdowns = points/8;
+   int pointsleftOver = points % 8;
+   int fieldGoals = pointsleftOver / 5;
+   int safetys = pointsleftOver %  5; 
+   
+   System.out.println("Given total Points:" +points);
+   System.out.println("Touchdowns:" +touchdowns);
+   System.out.println("Field Goals:" +fieldGoals);
+   System.out.println("Safetys:" + safetys);  
+   }
+
+}
