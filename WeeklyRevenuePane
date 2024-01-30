@@ -1,0 +1,19 @@
+import javax.swing.JOptionPane;
+
+class WeeklyRevenuePane
+{
+
+   public static void main(String[] args)
+   {
+     String priceString = JOptionPane.showInputDialog("Enter the price per ticket as a whole number.");
+
+      int price = Integer.parseInt(priceString);      
+     
+      double revenue = Double.parseDouble(priceString);
+      double total = -7.5*Math.pow(price,2)+600*price;
+      JOptionPane.showMessageDialog(null, 
+      String.format("The revenue on tours priced at $ %.2f " + " would be $ %.2f.", revenue, total));
+   
+      }
+   
+}
