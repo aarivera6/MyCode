@@ -12,7 +12,7 @@ class WeeklyRevenuePane
       double revenue = Double.parseDouble(priceString);
       double total = -7.5*Math.pow(price,2)+600*price;
       JOptionPane.showMessageDialog(null, 
-      String.format("The revenue on tours priced at $%.2f " + " would be $%.2f.", revenue, total));
+      String.format("The revenue on tours priced at $%.2f " + " would be $%,.2f.", revenue, total));
    
       }
    
