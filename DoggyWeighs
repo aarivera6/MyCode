@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class DoggyWeighs
+{
+   public static void main(String[] args)
+   {
+   
+      Scanner scan = new Scanner (System.in);
+      System.out.println("Enter the Doggies weight in pounds.");
+      double weight = scan.nextDouble();
+      System.out.println("How many days will the Doggie be boarded?");
+      int days = scan.nextInt();
+      double totalCost= 0.5*weight*days;
+      
+      System.out.printf("The cost to board a dog that weighs %,.2f pounds for %d days is %,.2f.", weight, days, totalCost );
+     
+   }
+   
+ }
