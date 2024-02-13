@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class FourMethods
+{
+   public static void main(String[] args)
+   {
+      getUserInput();
+      
+   }
+   
+   public static void getUserInput()
+   {
+      Scanner scan = new Scanner(System.in);
+      System.out.println("Enter an integer.");
+      int first = scan.nextInt();
+      System.out.println("Enter another integer.");
+      int second = scan.nextInt();
+      scan.close();
+      
+      addTwoNumbers(first, second);
+   }
+   
+   public static void addTwoNumbers(int first, int second)
+   {
+      int total = first + second;
+      displayTotal(total);  
+   }
+
+   public static void displayTotal(int total)
+   {
+      System.out.printf("The total is %,d." , total);
+   }
+
+}
