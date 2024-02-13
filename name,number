@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class myName
+{
+   public static void main(String[] args)
+   {
+      Scanner scan = new Scanner(System.in);
+      System.out.println("Please enter your name.");
+      String Name = scan.nextLine();
+      System.out.println("Please enter a whole number.");
+      int number = scan.nextInt();
+   
+   
+      displayRange(Name, number);
+    
+      
+      
+      scan.close();
+   }
+   
+ 
+   public static void displayRange(String Name, int number)
+   {
+      
+   System.out.printf("Hi %s. You entered the number %,d." , Name, number);
+ 
+   }
+ 
+ }
