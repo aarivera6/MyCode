@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Assignmnet4A
+{
+   public static void main(String[] args)
+   {
+      Scanner scan = new Scanner(System.in);
+      System.out.println("Please enter a positive integer.");
+      int integerOne = scan.nextInt();
+      System.out.println("Please enter another posistive integer.");
+      int integerTwo = scan.nextInt();
+      
+   
+      System.out.printf("The Velker Factor of %.2d and %.2d is %,2f." , 
+      integerOne, integerTwo, computeVelkerFactor(integerOne, integerTwo));
+  
+   }
+
+   public static double computeVelkerFactor(int integerOne, int integerTwo)
+   {
+      double VelkerFactor = ((2 * integerOne - 4 * integerTwo)) /
+      ((5 * integerOne) + (2 + integerTwo)); 
+      
+      return VelkerFactor;
+      
+   }  
+
+
+}
