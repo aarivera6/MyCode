@@ -11,7 +11,7 @@ public class Assignmnet4A
       int integerTwo = scan.nextInt();
       
    
-      System.out.printf("The Velker Factor of %.2d and %.2d is %,2f." , 
+      System.out.printf("The Velker Factor of %d and %d is %,2f." , 
       integerOne, integerTwo, computeVelkerFactor(integerOne, integerTwo));
   
    }
@@ -19,7 +19,7 @@ public class Assignmnet4A
    public static double computeVelkerFactor(int integerOne, int integerTwo)
    {
       double VelkerFactor = ((2 * integerOne - 4 * integerTwo)) /
-      ((5 * integerOne) + (2 + integerTwo)); 
+      ((5 * integerOne) + (2 * integerTwo)); 
       
       return VelkerFactor;
       
