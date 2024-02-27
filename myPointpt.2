@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class TestMyPoint 
+{
+   public static void main(String[] args)
+   {
+      Scanner scan = new Scanner(System.in);
+      System.out.println("Enter an int for x.");
+      int x = scan.nextInt();
+      System.out.println("Enter an int for y.");
+      int y = scan.nextInt();
+      scan.close();
+      
+      MyPoint point = new MyPoint();
+      
+      point.setX(x);
+      point.setY(y);
+   
+      System.out.printf("(%d, %d)%n", point.getX(),
+      point.getY());
+      
+      System.out.printf("The distance to the point (9, -16) is %.2f.",
+       point.distance(9, -16));
+   }
+
+}
