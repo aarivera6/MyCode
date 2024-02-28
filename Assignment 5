@@ -1,0 +1,38 @@
+public class Account 
+{
+  
+      private String accountHolder;
+      private int accountNumber;
+      private double balance;
+   
+      public String getAH(String accountHolder)
+      {
+         return accountHolder;
+      }
+   
+      public int getAN(int accountNumber)
+      {
+         return accountNumber;
+      }
+
+      public double getB(double balance)
+      {
+         return balance;
+      }
+   
+      public void setAH(String accountHolder)
+      {
+         this.accountHolder = accountHolder;
+      }
+      
+      public void setAN(int accountNumber)
+      {
+         this.accountNumber = accountNumber;
+      }
+      
+      public void setB(double balance)
+      {
+         this.balance = balance;
+      }
+ 
+}
