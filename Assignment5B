@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class TestAccount
+{
+   public static void main(String [] args)
+   {
+     Scanner scan = new Scanner(System.in);
+     System.out.println("Please enter the name account name");
+     String accountHolder = scan.nextLine();
+     System.out.println("Please enter the account number");
+     int accountNumber = scan.nextInt();
+     System.out.println ("Please enter the account balance.");
+     double balance = scan.nextDouble();  
+     scan.close();
+     
+     Account accountInfo = new Account(); 
+     
+     accountInfo.setAH(accountHolder);
+     accountInfo.setAN(accountNumber);
+     accountInfo.setB(balance);
+     
+     
+     System.out.printf("The account name is %s.%n Account number is %d.%n" +
+      "Account Balance is %.2f.", accountInfo.getAH(), 
+      accountInfo.getAN(), accountInfo.getB());
+     
+   
+   }
+
+}
