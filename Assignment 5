@@ -5,17 +5,17 @@ public class Account
       private int accountNumber;
       private double balance;
    
-      public String getAH(String accountHolder)
+      public String getAH()
       {
          return accountHolder;
       }
    
-      public int getAN(int accountNumber)
+      public int getAN()
       {
          return accountNumber;
       }
 
-      public double getB(double balance)
+      public double getB()
       {
          return balance;
       }
