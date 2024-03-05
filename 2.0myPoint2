@@ -1,0 +1,15 @@
+public class TesyMyPoint
+{
+   public static void main(String[] args)
+   {
+      MyPoint point1 = new MyPoint(7,6);
+      MyPoint point2 = new MyPoint();
+      System.out.println(point1);
+      System.out.println(point2);
+      System.out.println(point1.distance(4,5));
+      System.out.println(point2.distance(9,4));
+    
+   }
+   
+   
+}
