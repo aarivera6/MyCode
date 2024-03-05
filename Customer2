@@ -1,0 +1,17 @@
+public class CustomerTest
+{
+   public static void main(String[] args) 
+   {
+      Customer customer1= new Customer(1, "Alice", 10);
+      Customer customer2= new Customer(2, "Ady");
+      System.out.println(customer1);
+      System.out.println(customer2);
+      customer1.setName("Alice Atwell");
+      customer2.setName("Ady Rivera");
+      System.out.println(customer1);
+      System.out.println(customer2);
+     
+   }
+   
+   
+}
