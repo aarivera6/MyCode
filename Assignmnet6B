@@ -12,7 +12,7 @@ public class TestBill
       System.out.println("Please enter double value.");
       double percentage = scan.nextDouble();
       scan.close();
-      System.out.printf("The tax on bill one is %,.2f. The tax on the second bill is %,.2f",
+      System.out.printf("The tax on bill one is $%,.2f. %nThe tax on the second bill is $%,.2f",
       bill1.calculateTax(percentage), bill2.calculateTax(percentage));
      
    }
