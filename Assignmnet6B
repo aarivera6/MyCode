@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class TestBill
+{
+   public static void main(String[] args)
+   {
+      Bill bill1 = new Bill(3553, "Sam", 42.24);
+      Bill bill2 = new Bill(5445, "Bob", 56.65);
+      System.out.println(bill1);
+      System.out.println(bill2);
+      
+      Scanner scan = new Scanner(System.in);
+      System.out.println("Please enter double value.");
+      double percentage = scan.nextDouble();
+      scan.close();
+      System.out.printf("The tax on bill one is %,.2f. The tax on the second bill is %,.2f",
+      bill1.calculateTax(percentage), bill2.calculateTax(percentage));
+     
+   }
+   
+}
