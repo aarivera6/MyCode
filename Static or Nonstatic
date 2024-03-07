@@ -1,0 +1,12 @@
+public class staticTest
+{
+   public static void main(String[] args)
+   {
+      StaticorNonstatic obj =  new StaticorNonstatic(2, "red");
+      StaticorNonstatic.number = 8;
+      StaticorNonstatic.staticMethod();
+      obj.word = "blue";
+      obj.nonStaticMethod();
+   }
+   
+}
