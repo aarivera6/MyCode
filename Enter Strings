@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class EnterStrings
+{
+   public static void main(String [] args)
+   {
+      Scanner scan = new Scanner(System.in);
+      System.out.println("Enter a string on each line. Enter \"end\" to terminate input.");
+      String userInput = "";
+      String output = "";
+      while(!userInput.equals("end"))
+      {
+         
+         output = output + userInput;
+         userInput = scan.nextLine();
+      }
+      scan.close();
+      System.out.println(output);
+   }
+
+}
