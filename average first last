@@ -1,0 +1,16 @@
+public class AverageFirstLast
+{
+   public static void main(String[] args)
+   {
+      int[] ints1 = {4, 7, 9, 0, 1};
+      int[] ints2 = {9, -1, 2, 9, 3};
+      System.out.println(averageFirstLast(ints1));
+      System.out.println(averageFirstLast(ints2));
+
+   }
+   
+   public static int averageFirstLast(int[] a)
+   {
+      return (a[0] + a[a.length - 1]) / 2;
+   }
+}
