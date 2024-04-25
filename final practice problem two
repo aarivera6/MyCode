@@ -1,4 +1,5 @@
 // problem two
+// charAt use ' ' NOT " "
 public class FinalExamProblem5df44e990
 {
    /* Intructions:  Given an array of Strings, words, 
