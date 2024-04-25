@@ -1,0 +1,28 @@
+// problem two
+public class FinalExamProblem5df44e990
+{
+   /* Intructions:  Given an array of Strings, words, 
+      return the shortest String in the array. 
+      
+      problem(["reissue", "awe", "well-worn"]) -> "awe"
+      problem(["stayed", "scenarist", "nousle", "fundamental"]) -> "stayed"
+      problem(["unwind", "indomitability", "hail", "quicksilver"]) â†’ "hail" */
+            
+   public static String problem(String[] words)
+   {
+      /* Your code goes here. DO NOT ALTER ANY CODE ABOVE
+         THIS COMMENT! Compile and run this class to test
+         your solution. */
+      
+   String min = words[0];
+   for(int i=0; i< words.length; i++){
+      if(words[i].length() <min.length()){
+         min =words[i];
+      }
+   
+   }    
+    
+     return min;
+      
+      /* DO NOT ALTER ANY CODE BELOW THIS COMMENT! */   
+   }
