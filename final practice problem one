@@ -1,0 +1,27 @@
+// problem one
+public class FinalExamProblemb7515a516e
+{
+   /* Intructions:  Given an int, num, return an array of 
+      length three where each element is equal to num. 
+      
+      problem(0) a -> [0, 0, 0]
+      problem(1) a -> [1, 1, 1]
+      problem(2) a -> [2, 2, 2] */
+            
+   public static int[] problem(int num)
+   {
+      /* Your code goes here. DO NOT ALTER ANY CODE ABOVE
+         THIS COMMENT! Compile and run this class to test
+         your solution. */
+      
+      int[] array={num,num,num};
+      return array;
+      
+      /* DO NOT ALTER ANY CODE BELOW THIS COMMENT! */   
+   }
+   
+   public static void main(String[] args)
+   {
+      TestProblemb7515a516e.testProblem();
+   }   
+}
